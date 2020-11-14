@@ -9,7 +9,7 @@ Refer to [this tutorial](https://console.bluemix.net/docs/solution-tutorials/ser
 
 ## The three cloudlets include:
 
-###Customer Repository:
+### Customer Repository:
 
 This cloudlet facilitates the storage of road user information (bio data, address, car color, license plate etc.) in a NoSQL database. This is useful to keep track of who owns what car, in the case of a traffic rule violation. 
 This cloudlet makes use of Cloud Functions to communicate with the created Cloudant database. PUT and GET requests are sent to the API Gateway using the following apiUrl = 'https://c094c5b1.us-south.apigw.appdomain.cloud/repository'. 
@@ -17,13 +17,13 @@ Users are able to post and view customer information as well as contact the Admi
 
 > The Public Cloud Functions along with the defined Node.js scripts saved in the actions folder were used to power this cloudlet.
 
-###Traffic analysis and Visualization:
+### Traffic analysis and Visualization:
 
 This cloudlet aims at identifying areas with highest traffic counts as well as traffic variation throughout the day. This could help people avoid areas with a concentrated amount of traffic.
 
 
 
-###Identification of traffic rule violators:
+### Identification of traffic rule violators:
 
 This cloudlet focuses on using visual/text recognition to identify number plates of offenders who ignore the “red light”. This improves traffic safety.
 
