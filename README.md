@@ -37,7 +37,7 @@ This cloudlet focuses on using visual/text recognition to identify number plates
 
 ### How to access the Wakanda Traffic Department system:
 
-Visit the following path:
+Visit the following path:  https://myfrenkvr0.github.io/wakanda_traffic/.
 
 The username is: wakanda 		(case sensitive)
 The password is: FOREVER 	(case sensitive)
